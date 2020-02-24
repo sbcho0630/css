@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	#school{
+		color:red;
+	}
+	/*빨리 찾기위해서 아이디명 앞에 써줌(students1) id와 클래스 사이에 '>' or 공백 (students2), 안써도 상관은 없음.(students3) */
+	#school .students1{
+		font-size: 20px;
+		text-decoration: underline;
+		
+	}
+	#school > .students2{
+		font-size: 40px;
+		font-weight: bold;
+	}
+	.students3{
+		font-size: 60px;
+		font-family: 맑은 고딕;
+	}
+	
+</style>
+</head>
+<body>
+	<div id="school">
+		<div class="students1">
+			<dl>
+				<dt>이름</dt>
+				<dd>조인성</dd>
+			</dl>
+			<dl>
+				<dt>학과</dt>
+				<dd>전자과</dd>
+			</dl>
+		</div>
+
+		<div class="students2">
+			<dl>
+				<dt>이름</dt>
+				<dd>김태희</dd>
+			</dl>
+			<dl>
+				<dt>학과</dt>
+				<dd>기계과</dd>
+			</dl>
+		</div>
+		
+		<div class="students3">
+			<dl>
+				<dt>이름</dt>
+				<dd>이병헌</dd>
+			</dl>
+			<dl>
+				<dt>학과</dt>
+				<dd>화공과</dd>
+			</dl>
+		</div>
+	</div>
+</body>
+</html>
