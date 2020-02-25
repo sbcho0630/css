@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	#sub{
+		border:solid 2px cyan;  /*배포할 때 지우지말고 0px로 바꾸기, 문제생기면 다시 확인*/
+		width: 495px; height: 350px;
+		margin: 0px auto;   /*or 10px (위아래)5px(좌우) //하나만 쓰면 네방향 다 적용// auto = 가운데 자동정렬*/
+	}
+	
+	#sub > .menu{
+		border: solid 2px blue;
+		width: 450px; height: 35px;
+		margin: 0px;
+	}
+	
+	#sub > .menu > li{
+		border:solid 1px #dddddd;
+		width: 100px; height:30px; background-color:#EFEFEF;
+		float: left; margin: 0px;
+	
+		fontsize: 12px; color: #777777;
+		list-style-type: none; text-align: center;
+	}
+	
+	#sub > .fruit{
+		border: solid 1px red;
+		width: 200px; height: 200px;
+		margin: 30px 0px 0px 0px;
+	}
+	
+	#sub > .fruit > dt{
+		border: solid 1px blue;
+		width: 200px; height: 30px;
+		margin: 0px; background-color: skyblue;
+		
+		font-size: 12px; text-align: left; line-height: 30px;
+	}
+	
+	#sub > .fruit > dd{
+		border: solid 1px #ff3366;
+		width: 150px; height: 30px;
+		background-color: #ffcc33;
+		margin: 0px; font-size: 12px; text-align: center; line-height: 30px;
+	}
+</style>
+</head>
+<body>
+	<div id="sub">
+		<ul class="menu">
+			<li>첫번째 메뉴</li>
+			<li>두번째 메뉴</li>
+			<li>세번째 메뉴</li>
+			<li>네번째 메뉴</li>
+		</ul>
+		
+		<dl class="fruit">
+			<dt>바나나</dt>
+				<dd>바나나쥬스</dd>
+				<dd>바나나빵</dd>
+			
+			<dt>사과</dt>
+				<dd>사과 쥬스</dd>
+				<dd>사과 빵</dd>
+		</dl>
+	</div>
+</body>
+</html>

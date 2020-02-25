@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>POSITION</title>
+<style type="text/css">
+	/* position : absolute 절대위치 (부모)를 기준으로 이동
+					margin과 padding 사용 못함
+	*/
+	
+	div{
+		width: 100px; height: 100px;
+	}
+	
+	div:nth-child(1){
+		background-color: red;  
+		position: absolute;     /*margin 절대값. // body밑으로 붙음*/
+		top: 0px; left: 0px;
+	}
+	
+	div:nth-child(2){
+		background-color: green;
+		position: absolute;
+		top: 50px; left: 50px;
+	}
+	
+	div:nth-child(3){
+		background-color: blue;
+		position: absolute;
+		top: 100px; left: 100px;
+	}
+	
+	#wrap{
+		width: 300px; height: 300px;
+		background-color: pink;
+		opacity: 0.6;
+		top: 300px; left: 300px;
+		position: absolute;
+	}
+	
+	#content{
+		width: 100px; height: 100px;
+		background-color: yellow;
+		opacity: 0.9;
+		top: 100px; left: 100px;
+		position: absolute;
+	}
+</style>
+</head>
+<body>
+  	<div></div>
+    <div></div>
+    <div></div>
+    
+      <div id="wrap">
+        <div id="content"></div>
+</body>
+</html>

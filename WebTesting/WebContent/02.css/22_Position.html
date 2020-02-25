@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>POSITION</title>
+<style type="text/css">
+	
+	/*position=static 기본값/ 태그들이 순차적으로 쌓임*/
+	div{
+		width: 100px; height: 100px;
+		margin-left: 10px; margin-top:10px;   /*default는 static 이기 때문에 margin이 10이지만 맨위로 안붙고 따라붙음*/
+	}
+	
+	div:nth-child(1){
+		background-color: red;  
+	}
+	
+	div:nth-child(2){
+		background-color: green;
+	}
+	
+	div:nth-child(3){
+		background-color: blue;
+	}
+</style>
+</head>
+<body>
+  	<div></div>
+    <div></div>
+    <div></div>
+</body>
+</html>
