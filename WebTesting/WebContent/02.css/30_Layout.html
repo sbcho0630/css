@@ -3,6 +3,66 @@
 <head>
 <meta charset="UTF-8">
 <title>웹포트</title>
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lacquer|Sunflower:300&display=swap" rel="stylesheet">
+<style type="text/css">
+	header{
+		width: 90%; margin: 0px auto;
+		border: 1px solid #cccccc;
+		height: 300px;
+	}
+	
+	header > #gnb {
+		width: 600px; border: 0px solid blue;
+		float: left; margin-left: 0px;
+	} 
+	header > #lnb {
+		width: 600px; border: 0px solid red;
+		float: right; position: relative; top: 200px; 
+		
+	}
+	
+	header li{list-style-type: none;}
+	header a{text-decoration: none; font-family: 'Lacquer' ;}
+	
+	
+	header > #gnb li, header > #lnb li{
+		border: 1px dotted #cccccc; width: 100px; height: 30px;
+		text-align: center; line-height: 30px; float: left;
+	}
+
+	header > #gnb > ul{
+		padding-left: 0px;
+	}
+	
+	#content{
+		width: 90%; margin: 2px auto;
+		border: 1px solid #cccccc;
+		overflow:hidden;
+	}
+	
+	#content > #section, #content > #aside{
+		height: 600px; border: 1px solid #cccccc; float: left;
+		font-weight: bold; margin: 5px; font-size: 1.2em;
+	}
+	
+	#content > #section{
+		width: 80%; 
+		font-family: 'Indie Flower' ;
+	}
+	
+	#content > #aside{
+		width: 16%;
+		font-family: 'Sunflower' ;
+	}
+	
+	footer{
+		width: 90%;
+		height: 200px; border: 1px solid #cccccc; 
+		font-weight: bold; font-size: 2.0em;
+		text-align: center; height: 200px;
+		margin: 2px auto; line-height: 200px;
+	}
+</style>
 </head>
 <body>
  	<header>

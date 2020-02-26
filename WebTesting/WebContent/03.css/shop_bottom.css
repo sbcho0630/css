@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+#footer{
+	margin: 5px auto;
+	border: 0px solid red; overflow: hidden;
+}
+
+
+#footer > .bottom1 > .office_logo,
+#footer > .bottom1 > .office_address,
+#footer > .bottom1 > .shopping_info{
+	margin: 0px auto; height: 100px; text-align: center;
+	line-height: 100px; float:left;
+	border: 1px solid #CCCCCC;
+}
+
+#footer > .bottom1 > .office_logo{
+	width: 250px; margin-right: 3px;
+}
+#footer > .bottom1 > .office_address{
+	width: 503px; margin-right: 3px;
+}
+#footer > .bottom1 > .shopping_info{
+	width: 250px; margin-right: 3px;
+}
+#footer > .bottom2 {
+	width: 100%; margin-top: 5px;
+	height: 50px; text-align: center;
+	line-height: 50px; float:left;
+	background-color: black;
+	color: white;
+}
+
+/*clear: : both = float기능 지우기*/

@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+.form_style{
+	border: solid 1px black;
+		width: 730px; height: 350px;
+}
+
+
+#sub{
+		width: 750px; margin: 200px auto;
+		
+	}
+	
+.left{
+	border: solid 1px black;
+	width: 130px; height:25px;
+	float: left;
+}
+.right{
+	border: solid 1px black;
+	width: 595px; height:25px;
+	float: left;
+	text-align: left;
+}
+.cont{
+	border: 1px solid black;
+	width: 595px; height: 210px;
+	float: left;
+	text-align: left;
+	
+}

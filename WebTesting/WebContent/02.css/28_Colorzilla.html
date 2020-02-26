@@ -4,11 +4,49 @@
 <head>
 <meta charset="UTF-8">
 <title>외부 글꼴</title>
+<style type="text/css">
+	#wrap{
+		width: 800px; margin: 0px auto;
+		border: 0px solid red;
+		overflow: hidden;
+	}
+	
+	#wrap > ul > li{
+		width: 140px; height: 60px;
+		border: 1px solid #cccccc; 
+		list-style-type: none; float: left;
+		
+		text-align: center; line-height: 60px;
+		font-size: 1.5em; color:#ffffff;
+		font-weight: bold;
+		
+		/*한쪽 선 없애주기*/
+		border-left-width: 0px;
+		
+		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+		background: -moz-linear-gradient(left,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(left,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+		
+	}
+	
+	/*hover = 마우스 올려놨을때 변함*/
+	#wrap > ul > li:hover{
+		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3e2c7+0,c19e67+30,b68d4c+78,e9d4b3+100 */
+		background: rgb(243,226,199); /* Old browsers */
+		background: -moz-linear-gradient(left,  rgba(243,226,199,1) 0%, rgba(193,158,103,1) 30%, rgba(182,141,76,1) 78%, rgba(233,212,179,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(left,  rgba(243,226,199,1) 0%,rgba(193,158,103,1) 30%,rgba(182,141,76,1) 78%,rgba(233,212,179,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right,  rgba(243,226,199,1) 0%,rgba(193,158,103,1) 30%,rgba(182,141,76,1) 78%,rgba(233,212,179,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=1 ); /* IE6-9 */
+		
+	}		
+</style>
 </head>
 <body>
-  <div id="wrap">
+  <div id="wrap">			<!-- 전체 잡아주는 div는 height안줌 -->
         <ul>
-            <li>menu1</li>
+            <li style="border-left-width= 1px;">menu1</li>
             <li>menu2</li>
             <li>menu3</li>
             <li>menu4</li>

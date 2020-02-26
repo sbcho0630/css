@@ -10,13 +10,13 @@
 		width: 410px; height: 155px;
 	}
 	.content{
-		border: solid 0px yellow;
+		border: solid 1px yellow;
 		width: 400px; height: 80px;
 		margin: 2px 0px;
 	}
 	
 	.title{
-		border: solid 0px blue;
+		border: solid 1px blue;
 		width: 400px; height: 30px;
 		text-align: center; margin: 2px 0px;
 	}
