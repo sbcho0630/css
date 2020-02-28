@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+a{text-decoration: none; color:#000000;}
+li{list-style-type: none;}
+
+header{
+	border: 1px solid #CCCCCC;
+	width: 100%; margin: 0px auto;
+}
+
+header > #header_info{
+	width: 80%; height: 120px; line-height:120px;
+	margin-left:15%; font-size: 1.5em; 
+	overflow: hidden;
+}
+
+header > #header_info  .main_logo{
+	border: 0px solid red;
+	width: 130px; 
+	float:left;
+}
+
+header > #header_info  .main_text{
+	width: 100px; margin: 0px;
+	border: 1px solid red;
+}
+
+header > #header_nav{
+	width: 100%;  background-color: #000000;
+	border: 0px solid red;
+	overflow: hidden;
+	margin: auto; text-align: center;
+}
+header > #header_nav > .list ul{
+	border: 0px solid red; overflow: hidden;
+	margin: auto 200px ; 
+}
+
+header > #header_nav > .list li{
+	font-size: 1.3em; color: #ffffff;	
+	height: 35px; line-height: 35px;
+	float: left; margin: 10px;
+}
+
+header > .banner > img{
+	width: 100%;object-fit: cover;
+	
+    max-height: 20vw;
+}
+

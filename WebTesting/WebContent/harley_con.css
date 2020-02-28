@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+a{text-decoration: none; color: #000000;}
+h2{text-transform:uppercase;}
+#container  img {
+	width:275px; 
+	/*float:left;*/
+}
+#container{
+	width:80%;
+	border: 0px solid red;
+	margin: 0px auto; overflow: hidden;
+}
+
+.con{
+	margin-left: 0px;
+	margin-bottom: 20px; font-size: 60px;
+}
+
+.category{
+	width: 200px; height:50px;
+	border: 0px solid red;
+}
+#container  ul{
+	overflow: hidden;
+}
+#container  ul > li{
+	width: 280px;  float: left;
+	border: 0px solid #CCCCCC; 
+	text-align: center; margin-right: 5px;
+}
